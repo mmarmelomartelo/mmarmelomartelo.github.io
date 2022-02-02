@@ -1,46 +1,52 @@
-<!DOCTYPE html>  
+<!DOCTYPE html>
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>How to make a delicious tea</title>
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-    <link href="style.css" rel="stylesheet" type="text/css"/>
-  </head>
-  <body>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
     <div id="container">
-     <header>
-       <center>
-         <h1>How to make a delicious tea</h1>
-       </center>
-        <img src="pexels-photo-259955.jpeg"
-         <p> While coffe it seems more intellectual, tea is more spiritual (Chinese proverb)</p>
-    </header>
-    <section id="ingredients" onmouseover="ingredientsHover()" onmouseout="ingredientsNormal()">
-        <h2>ingredients <i class="fa fa-book" aria-hidden="true"></i> </h2>
-        <ul>
-          <li>Tea</li>
-          <li>Water</li>
-          <li>Milk</li>
-          <li>Sugar/Honey (Optional)</li>
-        </ul>
-    </section>
-    <section id="preparation" onmouseover="preparationHover()" onmouseout="preparationNormal()">
-        <h2>preparation <i class="fa fa-check" aria-hidden="true"></i></h2>
-        <ol>
-          <li>Warm the water at 100◦C for 10 min.</li>
-          <li>Add your tea bag in your nicer mug </li>
-          <li>Pour hot water on top of it (smell a bit at this time is always good)</li>
-          <li>wait for 3-4 min</li>
-          <li>Remove the tea bag and, if you want, squeeze gently the bag using a spoon</li>
-          <li>Sweeten if you want, and enjoy it!</li>
-        </ol>
-    </section>
-    <footer>
-       <p> Copyright Marcelo Montenegro 2019 ©
-    </footer>
-   </div>
-    
-   <script>
+        <header>
+            <center>
+                <h1>How to make a delicious tea</h1>
+            </center>
+
+        </header>
+        <section id="proverb">
+            <img src="assets/images/pexels-photo-259955.jpeg" <p> While coffe it seems more intellectual, tea is more spiritual (Chinese
+            proverb)</p>
+
+        </section>
+        <section id="ingredients" onmouseover="ingredientsHover()" onmouseout="ingredientsNormal()">
+            <h2>ingredients <i class="fa fa-book" aria-hidden="true"></i> </h2>
+            <ul>
+                <li>Tea</li>
+                <li>Water</li>
+                <li>Milk</li>
+                <li>Sugar/Honey (Optional)</li>
+            </ul>
+        </section>
+        <section id="preparation" onmouseover="preparationHover()" onmouseout="preparationNormal()">
+            <h2>preparation <i class="fa fa-check" aria-hidden="true"></i></h2>
+            <ol>
+                <li>Warm the water at 100◦C for 10 min.</li>
+                <li>Add your tea bag in your nicer mug </li>
+                <li>Pour hot water on top of it (smell a bit at this time is always good)</li>
+                <li>wait for 3-4 min</li>
+                <li>Remove the tea bag and, if you want, squeeze gently the bag using a spoon</li>
+                <li>Sweeten if you want, and enjoy it!</li>
+            </ol>
+        </section>
+        <footer>
+            <p> Copyright Marcelo Montenegro 2019 ©
+        </footer>
+    </div>
+
+    <script>
         function ingredientsHover() {
             document.getElementById('ingredients').firstElementChild.firstElementChild.style.fontSize = '200%';
         }
@@ -61,5 +67,6 @@
             document.getElementById('preparation').firstElementChild.firstElementChild.style.fontSize = '100%';
         }
     </script>
-  </body>
+</body>
+
 </html>
