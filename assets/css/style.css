@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
 body {
     font-family: Arial;
     color: SlateGray;
@@ -30,6 +35,11 @@ footer {
     margin-top: 70px;
     background-color: Orange;
     color: White;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    clear: both;
 }
 
 footer p {
@@ -46,6 +56,19 @@ footer p {
 #proverb {
     padding: 30px;
     font-style: italic;
+}
+
+#ingredients ul li {
+    padding-top: 5px;
+}
+
+#preparation {
+    margin-top: 10px;
+    padding-top: 5px;
+}
+
+#preparation ol li {
+    padding-top: 5px;
 }
 
 @media screen and (max-width: 768px) {
